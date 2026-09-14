@@ -18,6 +18,7 @@ function Navbar() {
           <a href="#sobre-mi">Sobre mí</a>
           <a href="#proyectos">Proyectos</a>
           <a href="#skills">Skills</a>
+          <a href="#trayectoria">Trayectoria</a>
           <a href="#contacto">Contacto</a>
         </nav>
 

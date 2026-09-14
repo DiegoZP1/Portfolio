@@ -7,30 +7,19 @@ function Hero() {
       <div className="hero-container">
         <div className="hero-content">
           <span className="hero-badge">
-            Data Analyst · BI · Python · SQL
+            Data & BI · SQL · Python · ETL · Power BI
           </span>
 
           <h1>
-            Transformo datos operativos en dashboards, indicadores y análisis para la toma de decisiones.
+            Construyo soluciones de datos que convierten información operativa en decisiones.
           </h1>
 
           <p>
-            Profesional de Sistemas con experiencia en Service Desk orientado al análisis de datos, Business Intelligence y
-            automatización de reportes para mejorar la operación.
+            Desarrollo procesos ETL, modelos de datos y dashboards utilizando SQL, Python, Power BI y Cloud, desde la extracción e integración de información hasta la construcción de indicadores para negocio.
           </p>
 
           <div className="hero-actions">
-           
-
-            <a
-              href="/cv/Diego-Zamalloa-CV.pdf"
-              download="CV-Diego-Zamalloa.pdf"
-              className="btn btn-primary"
-            >
-              Descargar CV
-            </a>
-
-             <a href="#proyectos" className="btn btn-secondary">
+            <a href="#proyectos" className="btn btn-primary">
               Ver proyectos
             </a>
 
@@ -41,8 +30,8 @@ function Hero() {
 
           <div className="hero-metrics">
             <div>
-              <strong>2+</strong>
-              <span>Proyectos</span>
+              <strong>1</strong>
+              <span>Proyecto</span>
             </div>
             <div>
               <strong>8+</strong>
@@ -50,7 +39,7 @@ function Hero() {
             </div>
             <div>
               <strong>1+</strong>
-              <span>Año en BI</span>
+              <span>Data & BI</span>
             </div>
           </div>
         </div>
@@ -63,7 +52,7 @@ function Hero() {
 
             <div className="hero-feature-list">
               <div className="hero-feature-item">
-                <span className="hero-feature-icon">📊</span>
+                <span className="hero-feature-icon">📈</span>
                 <div>
                   <strong>Análisis de datos</strong>
                   <p>Transformo información operativa en métricas e insights.</p>
@@ -71,39 +60,38 @@ function Hero() {
               </div>
 
               <div className="hero-feature-item">
-                <span className="hero-feature-icon">📈</span>
+                <span className="hero-feature-icon">🔄</span>
                 <div>
-                  <strong>Dashboards </strong>
-                  <p>Construyo reportes visuales para monitorear KPIs</p>
+                  <strong>Pipelines ETL </strong>
+                  <p>Extraigo información mediante APIs, la transformo con Python y SQL y la cargo en bases de datos relacionales.</p>
                 </div>
               </div>
 
                 <div className="hero-feature-item">
-                <span className="hero-feature-icon">🧹</span>
+                <span className="hero-feature-icon">🧩</span>
 
                 <div>
-                  <strong>Limpieza y transformación de datos</strong>
+                  <strong>Modelos de datos </strong>
 
                   <p>
-                    Depuro, valido y estandarizo información para mejorar su calidad y
-                    prepararla para el análisis.
+                    Diseño modelos dimensionales , estrella y copo de nieve para análisis histórico.
                   </p>
                 </div>
               </div>
 
                <div className="hero-feature-item">
-                <span className="hero-feature-icon">⚙️</span>
+                <span className="hero-feature-icon">📊</span>
                 <div>
-                  <strong>Automatización</strong>
-                  <p>Optimizo tareas recurrente con Python y Power Platform.</p>
+                  <strong>Business Intelligence</strong>
+                  <p>Construyo dashboards en Power BI con KPIs, SLA, tendencias, backlog y métricas operativas.</p>
                 </div>
               </div>
 
               <div className="hero-feature-item">
-                <span className="hero-feature-icon">🛠️</span>
+                <span className="hero-feature-icon">🔍</span>
                 <div>
-                  <strong>Soporte TI con enfoque en data</strong>
-                  <p>Resuelvo incidencias e inconsistencias de información.</p>
+                  <strong>Data Quality & SQL</strong>
+                  <p>Investigo inconsistencias, valido información y optimizo consultas sobre bases de datos productivas.</p>
                 </div>
               </div>
             </div>

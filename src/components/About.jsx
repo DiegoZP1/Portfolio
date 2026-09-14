@@ -26,7 +26,7 @@ function About() {
 
         <div className="about-content">
           <span className="about-role">
-            Service Desk · Data Analytics · Business Intelligence
+            Data Engineer · Data Analytics · Business Intelligence
           </span>
 
           <h3>
@@ -35,23 +35,16 @@ function About() {
           </h3>
 
           <p>
-            Soy profesional de Sistemas con experiencia en Service Desk 
-            orientado al análisis de datos y Business Intelligence.
+            Soy Bachiller en Ingeniería de Sistemas enfocado en Data, Business Intelligence y automatización.
           </p>
 
           <p>
-            Actualmente me desempeño en la resolución de incidencias e
-            inconsistencias de datos en aplicaciones empresariales. Asimismo,
-            transformo la información proveniente de tickets en indicadores,
-            reportes y dashboards que permiten monitorear tiempos de atención,
-            cumplimiento de SLA, backlog y rendimiento del equipo.
+           Actualmente trabajo con información proveniente de aplicaciones empresariales, transformando datos operativos en soluciones analíticas mediante SQL, Python, Power BI y procesos ETL.
           </p>
 
           <p>
-            Mi enfoque combina conocimientos de soporte TI con herramientas
-            como SQL, Python, Power BI y procesos ETL, con el objetivo de
-            transformar datos operativos en información útil para la toma de
-            decisiones.
+            He desarrollado procesos de extracción y transformación de datos desde Jira mediante APIs, pipelines en Python y bases de datos SQL, además de modelos dimensionales y snapshots históricos para analizar SLA, backlog, escalamiento y rendimiento operativo.
+            Mi objetivo es seguir desarrollándome en roles de Data Engineering  , Data Anlyst y Business Intelligence, construyendo soluciones que conecten integración, modelado y analítica de datos.
           </p>
 
           <div className="about-tech-list">
