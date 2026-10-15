@@ -1,0 +1,57 @@
+.project-gallery { margin-top: 24px; }
+.gallery-preview {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--card-border);
+  border-radius: 14px;
+  background: var(--bg-soft);
+  color: var(--blue);
+  font: inherit;
+  font-weight: 800;
+  text-align: left;
+  cursor: pointer;
+}
+.gallery-preview img { display: block; width: 100%; height: auto; }
+.gallery-preview > span { display: flex; justify-content: space-between; padding: 12px 16px; }
+.project-gallery .gallery-caption { margin: 8px 0 0; font-size: 13px; }
+.gallery-dialog {
+  margin: auto;
+  padding: 0;
+  width: min(1180px, calc(100% - 32px));
+  max-height: 92dvh;
+  overflow: auto;
+  border: 1px solid var(--card-border);
+  border-radius: 20px;
+  background: var(--bg-soft);
+  color: var(--text);
+  box-shadow: var(--shadow);
+}
+.gallery-dialog::backdrop { background: rgba(2, 6, 23, 0.88); }
+body:has(.gallery-dialog[open]) { overflow: hidden; }
+.gallery-panel { padding: 24px; }
+.gallery-header { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 20px; }
+.gallery-header span { color: var(--muted); font-size: 13px; }
+.gallery-header h2 { font-size: clamp(19px, 3vw, 26px); }
+.gallery-dialog button {
+  padding: 10px 14px;
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+.gallery-image { display: block; width: 100%; max-height: 65dvh; object-fit: contain; border-radius: 8px; }
+.gallery-controls { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 16px 0; }
+.gallery-tabs { display: flex; flex-wrap: wrap; gap: 8px; }
+.gallery-tabs button[aria-pressed="true"] { color: var(--blue); border-color: var(--blue); background: rgba(56, 189, 248, 0.1); }
+.gallery-original { display: inline-block; margin-top: 16px; color: var(--blue); font-size: 14px; }
+.gallery-preview:hover, .gallery-dialog button:hover { border-color: var(--blue); }
+.gallery-preview:focus-visible, .gallery-dialog button:focus-visible, .gallery-original:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
+@media (max-width: 600px) {
+  .gallery-panel { padding: 14px; }
+  .gallery-header { align-items: flex-start; }
+  .gallery-dialog button { padding: 9px 10px; font-size: 13px; }
+  .gallery-tabs { display: grid; grid-template-columns: 1fr 1fr; }
+}

@@ -1,3 +1,5 @@
+import ProjectGallery from "./ProjectGallery";
+
 function ProjectCard({ project, index }) {
   return (
     <article className="project-card">
@@ -25,10 +27,15 @@ function ProjectCard({ project, index }) {
           <a href={project.githubUrl} target="_blank" rel="noreferrer">
             Código ↗
           </a>
-          <a href={project.dashboardUrl} target="_blank" rel="noreferrer">
-            Dashboard ↗
-          </a>
+          {project.dashboardUrl && project.dashboardUrl !== "#" && (
+            <a href={project.dashboardUrl} target="_blank" rel="noreferrer">
+              Dashboard ↗
+            </a>
+          )}
         </div>
+        {project.screenshots?.length > 0 && (
+          <ProjectGallery screenshots={project.screenshots} title={project.title} />
+        )}
       </div>
     </article>
   );

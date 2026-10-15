@@ -38,7 +38,7 @@ function Hero() {
               <span>Herramientas</span>
             </div>
             <div>
-              <strong>1+</strong>
+              <strong>1+ años</strong>
               <span>Data & BI</span>
             </div>
           </div>
