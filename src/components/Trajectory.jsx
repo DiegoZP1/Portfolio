@@ -1,10 +1,22 @@
 
 const experience = [
   {
-    period: "2025 · Actualidad",
+    period: "Oct. 2026 · Actualidad",
+    position: "Analista de datos",
+    company: "Deal Brand",
+    current: true,
+    description:
+      "",
+    achievements: [
+      "Pronto ;)"
+    ],
+    tools: ["SQL",  "Power BI", "Excel"],
+  },
+  {
+    period: "Ago. 2025 · Oct. 2026",
     position: "Asistente de Soporte de Aplicaciones Digitales",
     company: "Laive S.A.",
-    current: true,
+    current: false,
     description:
       "Análisis de datos, soporte de aplicaciones y mejora de procesos operativos.",
     achievements: [
